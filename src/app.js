@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import { useState, useEffect } from 'react';
-import './App.css';
-import MainDisplay from "./MainDisplay.jsx"
-import Header from "./Header.jsx"
+import './app.css';
+import MainDisplay from "./maindisplay.jsx"
+import Header from "./header.jsx"
 function App() {
 
   const [characters, setCharacters] = useState([]);

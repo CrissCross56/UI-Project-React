@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import './MainDisplay.css'
+import './maindisplay.css'
 function MainDisplay(props){
 
     const [index, setIndex] = useState(0);
